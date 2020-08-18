@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SiteHeader from './components/SiteHeader'
 
 class App extends Component {
   constructor(props: any) {
@@ -7,7 +8,9 @@ class App extends Component {
   }
   render() {
     return (
-      <div style={{ color: '#5abebc' }}>2333</div>
+      <>
+        <SiteHeader />
+      </>
     );
   }
 }
